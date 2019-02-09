@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blogin.</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/icon.ico" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+</head>
+
+<body>
+    <!-- header -->
+    <section class="header">
+        <header class="flex space-between align-center wrapper">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <nav class="menu">
+                <a href="#" class="menu-link">Journal</a>
+                <a href="#" class="menu-link">About</a>
+                <a href="#" class="menu-link">Work</a>
+                <a href="#" class="menu-link">Contact</a>
+            </nav>
+            <button class="menu-mobile-btn" onclick="toggleMenu()"><i class="fas fa-bars"></i></i></button>
+        </header>
+    </section>
+
+   <!-- main -->
+    <main>
+        <div class="blog-container">
+            <div class="blog-item">
+                <img src="img/pic1.jpg" alt="" class="blog-img">
+                <div class="blog-item-info">
+                    <h2>DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.</h2>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                        doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur...</p>
+                    <button class="read-more-btn" onmouseenter="toggleArrow(event)" onmouseout="toggleArrow(event)">
+                        Continue Reading<span class="btn-arrow hide-visibility">→</span> </button>
+                </div>
+            </div>
+            <div class="blog-item">
+                <img src="img/pic2.jpg" alt="" class="blog-img">
+                <div class="blog-item-info">
+                    <h2>DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.</h2>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                            doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur...</p>
+                    <button class="read-more-btn" onmouseenter="toggleArrow(event)" onmouseout="toggleArrow(event)">
+                        Continue Reading<span class="btn-arrow hide-visibility">→</span> </button>
+                </div>
+            </div>
+            <div class="blog-item">
+                <img src="img/pic3.jpg" alt="" class="blog-img">
+                <div class="blog-item-info">
+                    <h2>DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.</h2>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                            doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur...</p>
+                    <button class="read-more-btn" onmouseenter="toggleArrow(event)" onmouseout="toggleArrow(event)">
+                        Continue Reading<span class="btn-arrow hide-visibility">→</span> </button>
+                </div>
+            </div>
+        </div>
+        <div class="pagination wrapper flex space-between">
+            <button class="pagination-btn">←&nbsp;&nbsp;Previous</button>
+            <button class="pagination-btn">Next&nbsp;&nbsp;→</button>
+        </div>
+    </main>
+   <!-- footer -->
+    <footer>
+        <img src="img/logo_footer.png" alt="" class="footer-logo">
+        <p> 2014 Blogin.com - All Rights Reserved - Find more free Templates at <a href="https://pixelhint.com">Pixelhint.com</a>
+        </p>
+        <div class="social-icons-container flex space-between">
+            <div alt="" class="social-icons fb"> </div>
+            <div alt="" class="social-icons tw"> </div>
+            <div alt="" class="social-icons be"> </div>
+            <div alt="" class="social-icons ba"> </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
