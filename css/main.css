@@ -28,14 +28,14 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
     font-size: 14px;
 }
 
 /* layout */
 
 .wrapper {
-    max-width: 960px;;
+    max-width: 960px;
     margin: 0 auto;
     height: 130px;
 }
@@ -47,19 +47,20 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* header */
 
-header {
-    height: 130px;
-    width: 980px;
-    background-color:#292929;
-    color: white;
-    margin: 0;
-}
-
 .header {
     height: 130px;
     background-color:#292929;
-    color: white
+    width: 100%;
+    position: fixed;
+
 }
+
+header {
+    height: 130px;
+    background-color:#292929;
+    color: white;
+}
+
 
 
 .menu {
@@ -73,21 +74,16 @@ header {
     height: 100vh;
     width: 200px;
     opacity: 0;
-    transition: open .8s ease;
-    transition: show .4s ease;
+    transition:  .8s ease;
 }
 
 
 .menu.open {
     transform: translate(-200px,0);
-    transition: .8s ease;
-}
-
-.menu.show {
     opacity: 1;
-    transition: .8s ease;
 }
 
+ 
 .menu-mobile-btn {
     position: absolute;
     right: 30px;
@@ -158,8 +154,7 @@ a.logo {
     width: 960px;
     margin: 0 auto;
     background-color:transparent;
-    /* margin-top: 80px; */
-    padding-top: 80px;;
+    padding-top: 210px;;
     border-right: 1px solid lightgray;
     border-left: 1px solid lightgray;
 }
@@ -378,6 +373,11 @@ footer > p {
         background-color:#292929;
         height: auto;
         width:auto;
+    }
+
+    .menu.open {
+        transform: translate(0,0);
+        opacity: 1;
     }
 
     .menu-link {

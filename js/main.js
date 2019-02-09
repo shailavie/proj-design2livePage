@@ -13,7 +13,6 @@ function toggleArrow(ev) {
 function toggleMenu(){
     var elMenu = document.querySelector('.menu');
     elMenu.classList.toggle('open')
-    elMenu.classList.toggle('show')
     var elMenuBtn = document.querySelector('.menu-mobile-btn')
     if (elMenu.classList.contains('open')) {
         elMenuBtn.innerHTML = '<i class="fas fa-times">'
